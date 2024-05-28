@@ -1,0 +1,6 @@
+tqdm
+timm
+torch
+open_clip
+torchvision
+xformers
