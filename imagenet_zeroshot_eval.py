@@ -26,11 +26,11 @@ def main(args):
 
     print(f"creating model: {args.model}")
     model = CLIP(vision_model=args.model)
+    model.to(device)
 
     print(f"loading checkpoint from {args.ckpt_path}")
     state_dict = torch.load(args.ckpt_path, map_location='cpu')
     model.load_state_dict(state_dict, strict=True)
-    model.to(device)
 
     def _convert_image_to_rgb(image):
         return image.convert("RGB")

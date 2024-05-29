@@ -1,5 +1,7 @@
 ## Unmasked Token Alignment (UTA) for Efficient Visual-Language Representation Learning
 
+![pipeline](images/pipeline.png)
+
 This repository provides the inference code for our TMLR paper "Enhancing Vision-Language Model with Unmasked Token Alignment".
 
 ### **Abstract:**
@@ -38,6 +40,12 @@ We release three pre-trained models:
    python imagenet_zeroshot_eval.py --imagenet-path [path to imagenet] --model [model name] --ckpt-path [path to checkpoint]
    ```
 
+4. **Run demo:**
+   You can also run `demo.py` to inference one image.
+   ```bash
+   python demo.py
+   ```
+
 ### **Citation:**
 
 If you find this work helpful, please cite our paper:
@@ -54,7 +62,7 @@ If you find this work helpful, please cite our paper:
     note={}
 }
 ```
-
+g
 ### **Contributing:**
 
 Contributions to this repository are welcome. Please feel free to open an issue or submit a pull request.
