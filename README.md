@@ -1,5 +1,9 @@
 # Unmasked Token Alignment (UTA) for Efficient Visual-Language Representation Learning
 
+<h3 align="center">
+  <a href="https://openreview.net/forum?id=JkFEVbW6wE">Paper</a>
+</h3>
+
 ![pipeline](images/pipeline.png)
 
 This repository provides the inference code for our TMLR paper "Enhancing Vision-Language Model with Unmasked Token Alignment".
